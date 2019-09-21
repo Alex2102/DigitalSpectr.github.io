@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Тестовое задание</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="main_form">
+		<form name="form" onsubmit="return checkForm(this)" action="https://digital-spectr.com/ac/academy.php" method="post">
+		<p class="main_form_p">Задать вопрос</p>
+		<input class="main_form_name" name="name" type="text" placeholder="Фамилия Имя Отчество *" required>
+		<input class="main_form_phone" name="phone" type="tel" placeholder="Телефон *" autofocus required>
+		<input class="main_form_email" name="email" type="email" placeholder="Email">
+		<button class="main_form_btn" type="submit"><span>отправить запрос</span></button>
+	</form>
+</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
